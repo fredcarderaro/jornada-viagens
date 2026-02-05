@@ -1,0 +1,25 @@
+.categories {
+  display: flex;
+  flex-direction: column;
+  padding: 88px 0;
+  align-items: center;
+}
+
+.category {
+  background-color: var(--background-secondary-color);
+  width: 312px;
+  height: 220px;
+  border-radius: 8px;
+  text-align: center;
+  align-content: center;
+}
+
+.category img {
+  width: 80px;
+  height: 80px;
+}
+
+.category p {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+}
