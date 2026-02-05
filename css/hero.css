@@ -6,7 +6,6 @@
 }
 
 .hero h2 {
-  color: var(--text-primary-color);
   text-align: center;
   padding: 88px 24px;
   font-weight: var(--text-weight);
