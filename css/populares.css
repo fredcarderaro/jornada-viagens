@@ -70,11 +70,11 @@
   }
 
   .popular-destination {
-    width: 648px;
+    max-width: 648px;
   }
 
   .popular-img {
-    width: 648px;
+    width: 100%;
     height: 452px;
   }
 
@@ -84,5 +84,32 @@
 
   .popular-img.osaka {
     background-image: url(../img/osaka.jpg);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .popular {
+    width: 100%;
+  }
+
+  .popular-cards {
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .popular-destination {
+    max-width: 428px;
+  }
+
+  .popular-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 298px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .popular-destination {
+    max-width: 580px;
   }
 }
