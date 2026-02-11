@@ -67,7 +67,20 @@ body {
   margin: 16px auto 32px;
 }
 
+session {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 312px;
+  margin: 0 auto;
+  padding: 0;
+}
+
 @media screen and (min-width: 768px) {
+  session {
+    width: 648px;
+  }
+
   .section-title h2 {
     font-size: 32px;
     max-width: 100%;
@@ -75,7 +88,17 @@ body {
 }
 
 @media screen and (min-width: 1024px) {
+  session {
+    width: 1024px;
+  }
+
   .button:hover {
     background-color: var(--primary-color);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  session {
+    width: 1250px;
   }
 }
