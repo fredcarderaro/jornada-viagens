@@ -1,12 +1,7 @@
 .popular {
-  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.popular .section-title {
-  width: 250px;
 }
 
 .popular-cards {
@@ -19,7 +14,6 @@
 }
 
 .popular-img {
-  width: 100%;
   height: 360px;
 }
 
@@ -52,7 +46,7 @@
   text-align: center;
   align-content: center;
 
-  width: 280px;
+  width: 100%;
   height: 64px;
   border-radius: 8px;
 
@@ -60,20 +54,11 @@
 }
 
 @media screen and (min-width: 768px) {
-  .popular-cards {
-    width: unset;
-  }
-
-  .popular .section-title {
-    width: unset;
-  }
-
   .popular-destination {
     max-width: 648px;
   }
 
   .popular-img {
-    width: 100%;
     height: 452px;
   }
 
@@ -87,17 +72,13 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .popular {
-    width: 100%;
-  }
-
   .popular-cards {
     flex-direction: row;
     gap: 24px;
   }
 
   .popular-destination {
-    max-width: 428px;
+    max-width: 480px;
   }
 
   .popular-img {
