@@ -73,12 +73,11 @@ session {
   flex-direction: column;
   width: 312px;
   margin: 0 auto;
-  padding: 0;
 }
 
 @media screen and (min-width: 768px) {
   session {
-    width: 648px;
+    width: 768px;
   }
 
   .section-title h2 {
@@ -99,6 +98,6 @@ session {
 
 @media screen and (min-width: 1440px) {
   session {
-    width: 1250px;
+    width: 1440px;
   }
 }

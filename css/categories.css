@@ -9,13 +9,13 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
+  justify-content: center;
 }
 
 .categories-cards .category {
   background-color: var(--background-secondary-color);
   border-radius: 8px;
   height: 220px;
-  width: 100%;
 }
 
 .categories-cards .category a {
@@ -51,8 +51,8 @@
   .categories-cards {
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
   }
+
   .categories-cards .category {
     width: 312px;
   }
@@ -60,7 +60,7 @@
 
 @media screen and (min-width: 1024px) {
   .categories-cards .category {
-    width: 198px;
+    width: 228px;
   }
   .categories-cards .category a {
     font-size: 24px;

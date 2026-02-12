@@ -3,8 +3,6 @@
   flex-direction: column;
   justify-content: center;
   gap: 24px;
-  margin: 0;
-  padding: 0;
 }
 
 .offers-cards .card {
@@ -16,6 +14,7 @@
   text-align: center;
   position: static;
   background-size: cover;
+  height: 288px;
 }
 
 .offers-cards .card header {
@@ -79,6 +78,7 @@
 @media screen and (min-width: 1024px) {
   .offers-cards .card {
     width: 480px;
+    height: 308px;
   }
 
   .offers-cards .card.japao {
