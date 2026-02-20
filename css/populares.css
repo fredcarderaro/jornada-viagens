@@ -1,0 +1,92 @@
+.popular-cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.popular-destination {
+  margin-bottom: 40px;
+}
+
+.popular-img {
+  height: 360px;
+}
+
+.popular-img.tokyo {
+  background-image: url(../img/tokyo-mobile.jpg);
+}
+
+.popular-img.osaka {
+  background-image: url(../img/osaka-mobile.jpg);
+}
+
+.popular-destination h2 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+}
+
+.popular-destination p {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 32px;
+}
+
+.popular-destination a {
+  display: inline-block;
+  background-color: var(--secondary-color);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: var(--title-weight);
+  color: var(--text-secondary-color);
+  text-align: center;
+  align-content: center;
+
+  width: 100%;
+  height: 64px;
+  border-radius: 8px;
+
+  margin-top: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .popular-destination {
+    max-width: 648px;
+  }
+
+  .popular-img {
+    height: 452px;
+  }
+
+  .popular-img.tokyo {
+    background-image: url(../img/tokyo.jpg);
+  }
+
+  .popular-img.osaka {
+    background-image: url(../img/osaka.jpg);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .popular-cards {
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .popular-destination {
+    max-width: 480px;
+  }
+
+  .popular-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 298px;
+  }
+
+  .popular-destination a {
+  width: 280px;
+}
+
+@media screen and (min-width: 1440px) {
+  .popular-destination {
+    max-width: 580px;
+  }
+}

@@ -1,30 +1,22 @@
-.categories {
-  display: flex;
-  flex-direction: column;
-  padding: 88px 0;
-  align-items: center;
-}
-
 .categories-cards {
   display: flex;
   flex-direction: column;
   gap: 24px;
+  justify-content: center;
 }
 
 .categories-cards .category {
   background-color: var(--background-secondary-color);
   border-radius: 8px;
-  width: 312px;
   height: 220px;
 }
 
 .categories-cards .category a {
-  width: 100%;
+  box-sizing: border-box;
   height: 100%;
 
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
 
   border-radius: 8px;
   padding: 24px 16px;
@@ -52,13 +44,16 @@
   .categories-cards {
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+  }
+
+  .categories-cards .category {
+    width: 312px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .categories-cards .category {
-    width: 204px;
+    width: 228px;
   }
   .categories-cards .category a {
     font-size: 24px;
