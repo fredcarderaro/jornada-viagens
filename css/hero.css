@@ -8,6 +8,7 @@
   height: 400px;
   background: url(../img/hero-mobile.jpg) no-repeat;
   background-size: cover;
+  border: 1px green solid;
 }
 
 .hero h2 {
@@ -23,7 +24,7 @@
   .hero-img {
     height: 620px;
     background: url(../img/hero-tablet.jpg) no-repeat;
-    background-size: contain;
+    background-size: cover;
   }
 
   .hero h2 {
@@ -35,7 +36,7 @@
 @media screen and (min-width: 1024px) {
   .hero-img {
     background: url(../img/hero-desktop.jpg) no-repeat;
-    background-size: contain;
+    background-size: cover;
   }
 
   .hero h2 {
