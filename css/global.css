@@ -70,7 +70,7 @@ body {
 .content-title {
   font-size: 28px;
   font-weight: var(--title-weight);
-  margin: 24px 0;
+  margin: 0;
 }
 
 .content-text {
@@ -85,12 +85,16 @@ session {
   flex-direction: column;
   align-items: center;
   width: 312px;
-  margin: 88px auto 0;
+  margin: 88px auto;
 }
 
 @media screen and (min-width: 768px) {
   session {
     width: 768px;
+  }
+
+  session.hero {
+    padding: 0;
   }
 
   .section-title h2 {

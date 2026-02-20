@@ -7,9 +7,12 @@
   margin-bottom: 40px;
 }
 
+.popular-destination .content-title {
+  margin: 24px 0;
+}
+
 .popular-img {
   height: 360px;
-  margin: 0;
 }
 
 .popular-img.tokyo {

@@ -14,6 +14,7 @@
 .categories-cards .category a {
   box-sizing: border-box;
   height: 100%;
+  gap: 24px;
 
   display: flex;
   flex-direction: column;
@@ -49,9 +50,11 @@
   .categories-cards .category {
     width: 228px;
   }
-  .categories-cards .category a {
-    font-size: 24px;
+
+  .categories-cards .content-title {
+    font-size: 26px;
   }
+
   .categories-cards .category a:hover {
     background-color: var(--background-quartenary-color);
   }
@@ -60,6 +63,10 @@
 @media screen and (min-width: 1440px) {
   .categories-cards .category {
     width: 280px;
+  }
+
+  .categories-cards .content-title {
+    font-size: 28px;
   }
 }
 
