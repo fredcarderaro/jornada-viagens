@@ -47,8 +47,8 @@ body {
 
 .section-title {
   text-align: center;
-  margin: 0 auto 32px;
-  box-sizing: border-box;
+  width: 100%;
+  margin: 88px auto 32px;
   padding: 0;
 }
 
@@ -56,7 +56,7 @@ body {
   font-size: 28px;
   font-weight: var(--title-weight);
   margin: 0 auto;
-  max-width: 90%;
+  max-width: 86%;
 }
 
 .section-title hr {
@@ -84,22 +84,18 @@ session {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 312px;
-  margin: 88px auto;
+  padding: 0 24px;
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 768px) {
   session {
     width: 768px;
-  }
-
-  session.hero {
-    padding: 0;
+    padding: 0 60px;
   }
 
   .section-title h2 {
     font-size: 32px;
-    max-width: 100%;
   }
 }
 
@@ -116,5 +112,6 @@ session {
 @media screen and (min-width: 1440px) {
   session {
     width: 1440px;
+    padding: 0 120px;
   }
 }
