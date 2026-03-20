@@ -44,16 +44,29 @@
     background-size: cover;
   }
 
-  /*   .hero h2 {
-    margin: 88px 60px;
-    font-size: 32px;
-  } */
+  .footer-info p {
+    font-size: 20px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   .footer-img {
     background: url(../img/footer-desktop.png) no-repeat;
     background-size: cover;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footer-container div {
+    align-items: start;
+    margin: auto;
+  }
+
+  .footer-info img {
+    margin: 0 0 16px;
   }
 }
 
@@ -62,7 +75,8 @@
     max-width: 1440px;
     margin: 0 auto;
   }
-  /*   .hero h2 {
-    margin: 104px 120px;
-  } */
+
+  .footer-container {
+    padding: 24px 320px;
+  }
 }
