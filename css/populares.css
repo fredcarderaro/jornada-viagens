@@ -17,10 +17,12 @@
 
 .popular-img.tokyo {
   background-image: url(../img/tokyo-mobile.jpg);
+  background-size: cover;
 }
 
 .popular-img.osaka {
   background-image: url(../img/osaka-mobile.jpg);
+  background-size: cover;
 }
 
 .popular-destination a {
