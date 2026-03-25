@@ -17,12 +17,12 @@
   position: static;
   background-size: cover;
   height: 288px;
+  width: 100%;
 }
 
 .offers-cards .card header {
   font-size: 20px;
   font-weight: var(--text-weight);
-  margin-bottom: 24px;
 }
 
 .offers-cards .card header p {
@@ -39,22 +39,6 @@
   display: inline-block;
   font-size: 32px;
   margin-top: 24px;
-}
-
-.offers-cards .card .button {
-  display: inline-block;
-  background-color: var(--secondary-color);
-  color: var(--text-secondary-color);
-  align-content: center;
-
-  width: 280px;
-  height: 64px;
-  border-radius: 8px;
-
-  text-decoration: none;
-  font-size: 20px;
-  line-height: 32px;
-  font-weight: var(--title-weight);
 }
 
 .offers-cards .card.japao {
