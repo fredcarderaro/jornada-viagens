@@ -143,6 +143,9 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .pacotes.payments .payments-main {
+    align-items: center;
+  }
   .pacotes.image-content .image.montagem1 {
     background: url(../img/montagem-japao-1-desktop.png) no-repeat;
     background-size: cover;
