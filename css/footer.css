@@ -76,3 +76,23 @@
     padding: 24px 320px;
   }
 }
+
+/* Página Pacotes de Viagem */
+.pacotes.footer .footer-img {
+  background: url(../img/footer-pacotes-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .pacotes.footer .footer-img {
+    background: url(../img/footer-pacotes-tablet.png) no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .pacotes.footer .footer-img {
+    background: url(../img/footer-pacotes-desktop.png) no-repeat;
+    background-size: cover;
+  }
+}
